@@ -22,7 +22,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6399386263))
+OWNER_ID = int(getenv("OWNER_ID", 7282263969))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/akaChampu")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TheChampuClub")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/MUSIC_BOT_UPDATE")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/OG_FRAINDS")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -80,21 +80,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://envs.sh/JJR.jpg"
+    "START_IMG_URL", "https://graph.org/file/24d2bf40ad749900f03a5-0918ffdd6e35a3d388.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/15fde98db07a70beb6f4a.jpg"
+    "PING_IMG_URL", "https://graph.org/file/24d2bf40ad749900f03a5-0918ffdd6e35a3d388.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/8ff7a386f161aea9ed5fb.jpg"
-STATS_IMG_URL = "https://graph.org/file/2dcb664a9c0ba9d9d80f6.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/b13a16734bab174f58482.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/5938774f48c1f019c73f7.jpg"
-STREAM_IMG_URL = "https://graph.org/file/61b2679bd92a3ab646153.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/7aed421dbfbad17f0469f.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/7e177561e54188f35fa03.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/42739cf35a58f1eda76f0.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/9553b762fd6a2aaf7ab0a.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/08b0f34c8012e2e231978.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/24d2bf40ad749900f03a5-0918ffdd6e35a3d388.jpg"
+STATS_IMG_URL = "https://graph.org/file/24d2bf40ad749900f03a5-0918ffdd6e35a3d388.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/24d2bf40ad749900f03a5-0918ffdd6e35a3d388.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/24d2bf40ad749900f03a5-0918ffdd6e35a3d388.jpg"
+STREAM_IMG_URL = "https://graph.org/file/24d2bf40ad749900f03a5-0918ffdd6e35a3d388.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/24d2bf40ad749900f03a5-0918ffdd6e35a3d388.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/24d2bf40ad749900f03a5-0918ffdd6e35a3d388.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/24d2bf40ad749900f03a5-0918ffdd6e35a3d388.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/24d2bf40ad749900f03a5-0918ffdd6e35a3d388.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/24d2bf40ad749900f03a5-0918ffdd6e35a3d388.jpg"
 
 
 def time_to_seconds(time):
